@@ -17,7 +17,7 @@ const styles = StyleSheet.create({
         backgroundColor: "red",
     },
     defaultText:{
-        fontFamily: "open-sans"
+        fontFamily: "openSans_700Bold"
     }
 
 })

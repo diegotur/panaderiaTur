@@ -27,12 +27,13 @@ const styles = StyleSheet.create({
         borderBottomColor: "#ccc"
     },
     header: {
-        fontsize: 18,
-        fontFamily: "Open-sans_700Bold",
+        fontSize: 18,
+        fontFamily: "OpenSans_700Bold",
     },
     detail:{
         flex: 1,
         flexDirection: "row",
+        flewWrap: "wrap",
         alignItems: "center",
         justifyContent: "space-between"
     }
