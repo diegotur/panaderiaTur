@@ -13,7 +13,10 @@ const OrderItems = ({ item, onDelete }) => {
         <View style={styles.order}>
             <View>
                 <Text style={styles.date}>{formatDay(item.date)}</Text>
-                <Text style={styles.total}>$ {item.total}</Text>
+                <Text style={styles.game}>{item.items[0].name}</Text>
+                <Text style={styles.game}>{item.items[1].name}</Text>
+                <Text style={styles.game}>{item.items[2].name}</Text>
+                <Text style={styles.total}>${item.total}</Text>
             </View>
             <View style={styles.actions}>
                 <TouchableOpacity onPress={() => onDelete(item.id)}>

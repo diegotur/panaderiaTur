@@ -13,7 +13,6 @@ const OrdersScreen = () => {
     const renderItem = ({ item }) => <OrderItems item={item} onDelete={onDelete} />
     return (
         <View style={styles.container}>
-
             <FlatList
                 data={ORDERS}
                 renderItem={renderItem}

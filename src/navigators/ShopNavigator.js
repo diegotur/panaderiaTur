@@ -2,8 +2,8 @@ import React from 'react'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
 
 import CategoriesScreen from '../screens/CategoriesScreen'
-import CategoryBreadScreen from '../screens/CategoryBreadScreen'
-import BreadDetailScreen from '../screens/BreadDetailScreen'
+import CategoryGameScreen from '../screens/CategoryGameScreen'
+import GameDetailScreen from '../screens/GameDetailScreen'
 import { COLORS } from '../constants/colors'
 
 const Stack = createNativeStackNavigator();
@@ -25,18 +25,18 @@ const ShopNavigator = () => {
           name="Home"
           component={CategoriesScreen}
           options={{
-            title: 'Mi Pan'
+            title: 'Game Factory'
           }}
         />
         <Stack.Screen
-          name="Products"
-          component={CategoryBreadScreen}
+          name="Juegos"
+          component={CategoryGameScreen}
           options={({ route }) => ({ title: route.params.categoryName })}
 
         />
         <Stack.Screen
-          name="Detail"
-          component={BreadDetailScreen} 
+          name="Detalle"
+          component={GameDetailScreen} 
           />
       </Stack.Navigator>
   )

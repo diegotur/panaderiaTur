@@ -35,10 +35,11 @@ const styles = StyleSheet.create({
         shadowRadius: 6,
         elevation: 3,
         padding: 8,
-        justifyContent: 'flex-end',
-        alignItems: 'flex-end'
+        justifyContent: 'center',
+        alignItems: 'center'
     },
     title: {
         fontFamily: 'OpenSans_700Bold',
+        fontSize: 30,
     }
 })

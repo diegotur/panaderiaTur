@@ -1,18 +1,15 @@
 export const CART= [
     {
-        id: 1,
-        name: "pan baguette",
-        description: "clasico pan frances",
-        weight: "500 gr",
-        price: 1600,
+        id: '5',
+        name: 'Rise Of The Tomb Raider',
+        description: 'Ayuda a Lara a levantarse',
+        price: 3500,
         quantity: 3
     },
     {
-        id: 2,
-        category: "1",
-        name: "pan ciabatta",
-        description: "pan de alta hidratación",
-        weight: "800 gr",
+        id: '2',
+        name: 'Last Of Us 2',
+        description: 'Ayuda a Ellie a superar la muerte de Joel',
         price: 3000,
         quantity: 1
     }

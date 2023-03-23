@@ -6,7 +6,7 @@ import { CATEGORIES } from '../data/categories'
 const CategoriesScreen = ({ navigation }) => {
 
     const onSelectGridItem = (item) => {
-        navigation.navigate('Products', {
+        navigation.navigate('Juegos', {
             categoryId: item.id,
             categoryName: item.title
         })
@@ -20,7 +20,7 @@ const CategoriesScreen = ({ navigation }) => {
             data={CATEGORIES}
             keyExtractor={(item) => item.id}
             renderItem={renderGridItem}
-            numColumns={2}
+            numColumns={1}
         />
     )
 }

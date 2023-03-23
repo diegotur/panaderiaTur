@@ -11,7 +11,6 @@ const BreadItem = ({ item, onSelected }) => {
                 </View>
                 <View>
                     <Text style={styles.details} > $ {item.price}</Text>
-                    <Text style={styles.details}>{item.weight}</Text>
                 </View>
             </View>
         </TouchableOpacity>
@@ -26,13 +25,16 @@ const styles = StyleSheet.create({
         padding: 20,
         margin: 10,
         borderRadius: 3,
-        backgroundColor: '#ccc'
+        backgroundColor: '#333'
     },
     title: {
         fontSize: 20,
+        color: "white",
         fontFamily: 'OpenSans_700Bold',
     },
     details: {
-        fontSize: 10
+        fontSize: 16,
+        color: "white",
+
     }
 })
